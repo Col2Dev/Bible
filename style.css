@@ -4,6 +4,9 @@
   font-family: Roboto, sans-serif;
   
   
+  color: ;
+  
+  
 }
 
 
@@ -13,21 +16,24 @@ body{
 
 nav{
   margin-top: 10px;
-  background-color: #474;
+  background-color:#123;
   overflow: hidden;
   width: 100%;
   border-radius: 10px;
      border: 1px solid #333;
+    box-shadow: 6px 10px #000, -2em 0.5em #000;
+
 
 }
 
 nav a{
     float: right;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
+   text-shadow: 1px 1px 2px   #00A0A8; color: white
 
 }
 
@@ -38,20 +44,25 @@ nav a{
   margin-left: 150px;
 }
 
-h1 {
-  color: #f3f3f3;
-}
+
 
 p{
   padding: auto;
   margin: 0 auto;
   width: 35.9%;
   border-radius: 10px;
-  background-color:#474;
+  background-color:#123;
   border: 10px #343;   
-  color: #f2f2f2;
-  font-size: 20px;
+    text-shadow: 3px 2px 3px   #00A0A8; color: white;
+  
+  box-shadow: 6px 10px #000, -2em 0.5em #000;
 
+ 
+  font-size: 20px;
+}
+
+p  strong {
+  text-shadow: -.5px -2px -1px   #00A0A8;
 }
 
 header{
@@ -68,10 +79,12 @@ article{
 }
 
 ul {
-   color: #f2f2f2;
+  
   list-style-position: inside;
   list-style-type: circle;
   width: 96%;
+  margin: 10px;
+  height:96%;
 }
 
 a:hover{
@@ -80,12 +93,28 @@ a:hover{
 }
 
 a{
-  border: 1.1px solid #333;
   border-radius: 5px;
+  color: white;
+     text-shadow: 2px 2px 2px       black; 
+  
+      box-shadow: 2px 2px #000, -.2em 0.5em #000;
+
+  
 }
 
 nav h1{;
   margin: 10px;
   border-radius: 5px;
-  border: 13px solid #474;
+  border: 13px #474;
+   text-shadow: 2px 2px 3px   #46C0A8; color: white;
+
 }
+
+
+h1{
+     /*text-shadow: 2px 2px 2px      #000; */
+  
+ text-shadow: 2px 2px 3px   #46C0A8; color: white;
+
+}
+
