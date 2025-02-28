@@ -21,7 +21,7 @@ nav{
   width: 100%;
   border-radius: 10px;
      border: 1px solid #333;
-    box-shadow: 6px 10px #000, -2em 0.5em #000;
+    border-shadow: 6px 10px neon, -2em 0.63em neon;
 
 
 }
@@ -53,7 +53,7 @@ p{
   border-radius: 10px;
   background-color:#123;
   border: 10px #343;   
-    text-shadow: 3px 2px 3px   #00A0A8; color: white;
+    text-shadow: 1px -.123px 4px   #00A0A8; color: white;
   
   box-shadow: 6px 10px #000, -2em 0.5em #000;
 
@@ -62,7 +62,7 @@ p{
 }
 
 p  strong {
-  text-shadow: -.5px -2px -1px   #00A0A8;
+  text-shadow: -.5px -2px 20px   #00A0A8;
 }
 
 header{
@@ -106,7 +106,7 @@ nav h1{;
   margin: 10px;
   border-radius: 5px;
   border: 13px #474;
-   text-shadow: 2px 2px 3px   #46C0A8; color: white;
+   text-shadow: -2px -1px 34px   #46C0A8; color: white;
 
 }
 
@@ -114,7 +114,8 @@ nav h1{;
 h1{
      /*text-shadow: 2px 2px 2px      #000; */
   
- text-shadow: 2px 2px 3px   #46C0A8; color: white;
+ text-shadow: -1px -1px 34px #46C0A8; color: white;
 
 }
+
 
