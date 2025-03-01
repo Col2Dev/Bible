@@ -70,11 +70,12 @@ article {
 }
 
 ul {
+  display: flex;
   list-style-position: inside;
   list-style-type: circle;
-  width: 96%;
   margin: 10px;
   height: 96%;
+  float: right;
 }
 
 a:hover {
