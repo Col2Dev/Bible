@@ -137,4 +137,10 @@ h1 {
         margin-left: 0;
         font-size: 18px;
     }
+
+    p{
+      padding-left: 30px;
+      padding-right: 30px;
+
+    }
 }
