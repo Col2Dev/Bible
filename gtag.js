@@ -1,7 +1,6 @@
-// scripts/gtag.js
 window.dataLayer = window.dataLayer || [];
 function gtag() {
   dataLayer.push(arguments);
 }
 gtag('js', new Date());
-gtag('config', '{{ GTAG_ID }}');
+gtag('config', 'G-T21DG529BT');
