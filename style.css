@@ -9,6 +9,11 @@ body {
   background-color: #0c0c0c;
 }
 
+
+ul {
+  list-style-type: none;
+}
+
 aside nav {
   display: flex;
   border-radius: 0;
