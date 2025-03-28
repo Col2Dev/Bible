@@ -1,11 +1,40 @@
 
+
 *{
   font-family: Roboto, sans-serif;
   
 }
 
+
 body {
   background-color: #0c0c0c;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+aside nav {
+  display: flex;
+  border-radius: 0;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+
+}
+aside nav h2{
+  width: 50%;
+  height: 7%;
+  text-align: center;
+  
+}
+
+aside nav ul{
+  padding-left: 38%;
 }
 
 nav {
@@ -14,8 +43,9 @@ nav {
   overflow: hidden;
   width: 100%;
   border-radius: 10px;
-  border: 1px solid #333;
-  box-shadow: 6px 10px neon, -2em 0.63em neon;
+  
+  box-shadow: 6px 10px neon, -2em 0.63em white;
+
 }
 
 nav a {
@@ -98,7 +128,8 @@ nav h1 {
   color: white;
 }
 
-h1 {
+h1,
+  h2 {
   /*text-shadow: 2px 2px 2px      #000; */
 
   text-shadow: -1px -1px 34px #46c0a8;
@@ -143,4 +174,10 @@ h1 {
       padding-right: 30px;
 
     }
+    main nav li{
+        padding-left: .2px;
+    }
+      aside nav ul{
+        padding-left: 0;
+      }
 }
