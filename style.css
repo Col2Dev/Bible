@@ -150,6 +150,7 @@ article {
 .holy-ghost {
  display: flex;
  justify-content: center;
+ margin-topz: 30px;
  margin-bottom: 70px;
 }
 
