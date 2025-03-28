@@ -1,2 +1,2 @@
 # Bible
-Bible studies and note
+Bible studies and notes
