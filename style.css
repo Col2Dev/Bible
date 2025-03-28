@@ -37,6 +37,7 @@ aside nav ul{
 }
 
 nav {
+  height: fit-content;
   margin-top: 10px;
   background-color: #123;
   overflow: hidden;
