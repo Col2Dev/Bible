@@ -20,7 +20,29 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAGAj8Ob12Zk7YTDCrZO1ENt3SIxQDIowk",
+    authDomain: "bible-cbff0.firebaseapp.com",
+    projectId: "bible-cbff0",
+    storageBucket: "bible-cbff0.firebasestorage.app",
+    messagingSenderId: "868812722297",
+    appId: "1:868812722297:web:c6140c8e7ec4f06e4204a8",
+    measurementId: "G-L9ETW1X7JW"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
   <section >
 		<header>
 			<h1> What about Matthew 28:19? </h1>
